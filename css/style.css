@@ -467,7 +467,7 @@
   position: fixed;
   bottom: 30px;
   top: auto;
-  right: 20px;
+  right: 25px;
   font-size: 30px;
   z-index: 21;
   display: none;
@@ -528,10 +528,9 @@
   background-repeat: no-repeat;
   background-size: 100px 100px;
   display: block;
-}
-.nav-left .avatar:hover {
-  -webkit-animation: rubberBand 1s;
-  animation: rubberBand 1s;
+/*&:hover
+      -webkit-animation rubberBand 1s
+      animation rubberBand 1s*/
 }
 .nav-left .author {
   text-align: center;
@@ -1223,6 +1222,7 @@
   animation: fadeOuts 0.2s;
 }
 #post .pjax article {
+  text-indent: 2em;
   font-family: "Times New Roman", SimSun;
   font-size: 13px;
   padding: 2.5em;
@@ -1230,9 +1230,10 @@
 /* Inline code */
 }
 #post .pjax article .article-entry>p:nth-child(1) {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 #post .pjax article .article-meta {
+  text-indent: 0;
   font-size: 0.9em;
   font-family: Consolas;
   color: #bcc1c4;
@@ -1358,6 +1359,7 @@
   border-right-color: #7b5d5f;
 }
 #post .pjax article .article-title {
+  text-indent: 0em;
   margin: 0;
   font-size: 1.8em;
   border-bottom: 0;
