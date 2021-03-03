@@ -327,7 +327,7 @@
 }
 .iconfont {
   font-family: "iconfont", "custom-iconfont" !important;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -429,8 +429,8 @@
   top: 30px;
   right: 40px;
   z-index: 31;
-  width: 42px;
-  height: 42px;
+  width: 27px;
+  height: 27px;
   padding: 0;
   background: transparent;
   border: none;
@@ -442,12 +442,12 @@
 .full-toc .full .min,
 .full-toc .full .max {
   transform: translateX(50%);
-  padding-top: 9px;
+  padding-top: 7px;
   display: block;
   width: 200%;
   height: 42px;
   margin-left: -100%;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 42px;
   color: #fff;
   background: #2a2935;
@@ -468,7 +468,7 @@
   bottom: 30px;
   top: auto;
   right: 20px;
-  font-size: 40px;
+  font-size: 30px;
   z-index: 21;
   display: none;
   opacity: 0;
@@ -502,8 +502,8 @@
   content: "\e9a9";
   position: absolute;
   right: 9px;
-  bottom: -16px;
-  font-size: 21px;
+  bottom: -14px;
+  font-size: 11px;
   color: #f00;
 }
 .nav-left {
@@ -537,6 +537,7 @@
   text-align: center;
   height: 27px;
   color: #fff;
+  font-size: 14px;
 }
 .nav-left .more-menus {
   display: none;
@@ -584,6 +585,7 @@
   text-align: center;
   border-bottom: 1px solid #fff;
   cursor: pointer;
+  font-size: 14px;
 }
 .nav-left ul li>div {
   height: 40px;
@@ -603,7 +605,7 @@
 }
 .nav-left ul li>div>.fold {
   left: 4px;
-  font-size: 0.7em;
+  font-size: 12px;
   position: absolute;
   transition: transform 0.3s;
 }
@@ -659,6 +661,7 @@
 .nav-right .title-list {
   margin-left: 0;
   transition: margin-left 0.5s;
+  font-size: 14px;
 }
 .nav-right .title-list.friend {
   margin-left: 421px;
@@ -668,7 +671,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  font-size: 15px;
+  font-size: 13px;
 }
 .nav-right .title-list .right-top #default-panel,
 .nav-right .title-list .right-top #outline-panel {
@@ -679,7 +682,7 @@
 .nav-right .title-list .right-top #outline-panel .right-title {
   height: 45px;
   line-height: 45px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .nav-right .title-list .right-top #default-panel .iconfont,
 .nav-right .title-list .right-top #outline-panel .iconfont {
@@ -687,7 +690,7 @@
   top: 50%;
   transform: translate(0, -50%);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
 }
 .nav-right .title-list .right-top #default-panel .iconfont.icon-search,
 .nav-right .title-list .right-top #outline-panel .iconfont.icon-search {
@@ -695,12 +698,12 @@
 }
 .nav-right .title-list .right-top #default-panel .iconfont.icon-search.active,
 .nav-right .title-list .right-top #outline-panel .iconfont.icon-search.active {
-  color: #007fff;
+  color: #000;
 }
 .nav-right .title-list .right-top #default-panel .iconfont.icon-file-tree,
 .nav-right .title-list .right-top #outline-panel .iconfont.icon-file-tree {
   right: 15px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .nav-right .title-list .right-top #default-panel .iconfont.icon-list,
 .nav-right .title-list .right-top #outline-panel .iconfont.icon-list {
@@ -733,7 +736,7 @@
   right: 15px;
 }
 .nav-right .title-list .right-top #search-panel #local-search-input {
-  font-size: 18px;
+  font-size: 14px;
   color: #333;
   height: 32px;
   width: calc(100% - 90px);
@@ -752,7 +755,7 @@
   bottom: 5px;
   z-index: 1;
   height: 2px;
-  background-color: #03a6ff;
+  background-color: #000;
   width: 0;
   transition: all 0.3s;
 }
@@ -775,7 +778,7 @@
   display: block;
   width: 100%;
   height: 28px;
-  font-size: 17px;
+  font-size: 14px;
   padding-left: 10px;
   border-radius: 14px;
   border: none;
@@ -812,6 +815,7 @@
   transform: translate(0, -50%);
 }
 .nav-right .title-list .tags-list .tag-wrapper li a {
+  font-size: 14px;
   height: 18px;
   line-height: 18px;
   padding: 0 5px 0 10px;
@@ -823,6 +827,7 @@
   text-overflow: ellipsis;
 }
 .nav-right .title-list #outline-list {
+  font-size: 12px;
   display: none;
   position: absolute;
   top: 45px;
@@ -841,7 +846,7 @@
 }
 .nav-right .title-list #outline-list .toc {
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 1.3;
   padding: 0;
   color: #333;
@@ -854,6 +859,7 @@
   top: 0;
   left: 7px;
   bottom: 0;
+  font-size: 12px;
   width: 2px;
   background-color: #ebedef;
   opacity: 0.5;
@@ -966,7 +972,7 @@
   top: 7px;
   left: 12px;
   z-index: 1;
-  font-size: 18px;
+  font-size: 16px;
   color: #309e85;
 }
 .nav-right .title-list nav a#top:before,
@@ -986,8 +992,7 @@
   clear: both;
   margin: 5px 0;
   padding-left: 32px;
-  font-size: 16px;
-  line-height: 22px;
+  line-height: 20px;
   white-space: nowrap;
   text-decoration: none;
   text-overflow: ellipsis;
@@ -1002,7 +1007,6 @@
 }
 .nav-right .title-list nav a .post-date,
 .nav-right .title-list #local-search-result a .post-date {
-  font-size: 15px;
   margin: 8px 0;
   padding-right: 3px;
   color: #9aa4af;
@@ -1181,13 +1185,13 @@
 #post {
   height: 100%;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.75;
   background: #f4f5f5;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Consolas, sans-serif;
   color: #2f2f2f;
   margin-left: 1px;
 }
@@ -1239,7 +1243,7 @@
   color: inherit;
 }
 #post .pjax article .article-meta .origin a:hover {
-  color: #4078c0;
+  color: #b627ff;
 }
 #post .pjax article .article-meta .top-comment a {
   cursor: pointer;
@@ -1247,7 +1251,7 @@
   font: 400 15px/1 "Open Sans", "Hiragino Sans GB", sans-serif;
 }
 #post .pjax article .article-meta .top-comment a:hover {
-  color: #4078c0;
+  color: #b627ff;
 }
 #post .pjax article .article-meta .top:before {
   content: "\f08d";
@@ -1279,7 +1283,7 @@
   color: inherit;
 }
 #post .pjax article .article-meta .book a:hover {
-  color: #4078c0;
+  color: #b4b4b4;
 }
 #post .pjax article .article-meta .tag {
   margin-left: 8px;
