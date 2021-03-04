@@ -197,13 +197,13 @@
     font-size: 15px;
   }
   #post .pjax article {
-    padding: 1em;
+    padding: 2em;
   }
   #post .pjax article .article-meta {
     font-size: 0.9em;
   }
   #post .pjax article .article-meta .tag a {
-    height: 14px;
+    height: 13px;
     line-height: 14px;
   }
   #post .pjax article .article-meta .tag a:before {
@@ -233,7 +233,7 @@
     opacity: 0.7;
   }
   .full-toc #rocket {
-    right: -7px;
+    right: 7px;
   }
   .shang_box {
     width: 100%;

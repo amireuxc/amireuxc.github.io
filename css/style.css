@@ -550,7 +550,7 @@
   line-height: 19px;
 }
 .nav-left .icon a:hover {
-  color: #309e85;
+  color: #66c;
 }
 .nav-left ul {
   margin: 0;
@@ -1054,7 +1054,7 @@
 }
 #nprogress > .bar {
   height: 100%;
-  background: #363;
+  background: #699;
 }
 .spinner {
   width: 7px;
@@ -1185,8 +1185,9 @@
   height: 100%;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 1.75;
-  background: #f4f5f5;
+  line-height: 2.25;
+  background: #699;
+  padding: 0 10px 0 10px;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -1196,7 +1197,7 @@
 }
 #post ::selection {
   color: #fff;
-  background: #33caa6;
+  background: #66c;
   text-shadow: none;
 }
 #post .pjax {
@@ -1478,7 +1479,7 @@
 #post .pjax article table.green tr th {
   color: #fff;
   font-weight: bold;
-  background-color: #5db084;
+  background-color: #66c;
 }
 #post .pjax article table.green_title tr th {
   color: #eee;
@@ -1568,7 +1569,7 @@
   padding-bottom: 30px;
   line-height: 14px;
   text-align: center;
-  color: #bcc1c4;
+  color: #fff;
 }
 #post .copyright .miit {
   display: inline-block;
@@ -1580,7 +1581,7 @@
 #post .copyright a {
   color: #0269c8;
   word-break: break-all;
-  border-bottom: 1px solid #d1e9ff;
+  border-bottom: 1px solid #0269c8;
 }
 #post .copyright a:hover {
   text-decoration: underline;
@@ -1960,13 +1961,13 @@ img.pswp__img {
     font-size: 15px;
   }
   #post .pjax article {
-    padding: 1em;
+    padding: 2em;
   }
   #post .pjax article .article-meta {
     font-size: 0.9em;
   }
   #post .pjax article .article-meta .tag a {
-    height: 14px;
+    height: 13px;
     line-height: 14px;
   }
   #post .pjax article .article-meta .tag a:before {
@@ -1996,7 +1997,7 @@ img.pswp__img {
     opacity: 0.7;
   }
   .full-toc #rocket {
-    right: -7px;
+    right: 7px;
   }
   .shang_box {
     width: 100%;
