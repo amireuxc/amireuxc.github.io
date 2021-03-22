@@ -509,8 +509,8 @@
 .nav-left {
   width: 120px;
   height: 100%;
-  background: #2a2935;
-  box-shadow: inset -15px 0 15px -15px #222;
+  background: #233237;
+  box-shadow: inset -15px 0 15px -15px #233237;
   float: left;
   position: relative;
   -webkit-user-select: none;
@@ -754,7 +754,7 @@
   bottom: 5px;
   z-index: 1;
   height: 2px;
-  background-color: #000;
+  background-color: #eac67a;
   width: 0;
   transition: all 0.3s;
 }
@@ -794,7 +794,7 @@
   width: 3px;
 }
 .nav-right .title-list .tags-list .tag-wrapper::-webkit-scrollbar-thumb {
-  background: #309e85;
+  background: #eac67a;
 }
 .nav-right .title-list .tags-list .tag-wrapper li {
   float: none;
@@ -1197,7 +1197,7 @@
 }
 #post ::selection {
   color: #fff;
-  background: #66c;
+  background: #eac67a;
   text-shadow: none;
 }
 #post .pjax {
@@ -1227,7 +1227,7 @@
   font-family: "Times New Roman", SimSun;
   font-size: 13px;
   padding: 2.5em;
-  background: #fff;
+  background: WHITE;
 /* Inline code */
 }
 #post .pjax article .article-entry>p:nth-child(1) {
@@ -1483,8 +1483,8 @@
 }
 #post .pjax article table.green_title tr th {
   color: #eee;
-  border: 1px solid #009688;
-  background-color: #009688;
+  border: 1px solid #eac67a;
+  background-color: #eac67a;
 }
 #post .pjax article :not(pre) > code {
   background-color: #fff5f5;
@@ -1907,7 +1907,7 @@ img.pswp__img {
     margin-right: 7px;
   }
   .nav-left .avatar {
-    margin: 20px auto 15px;
+    margin-top: 40px;
   }
   .nav-left ul {
     display: none;
