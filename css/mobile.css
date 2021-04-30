@@ -50,7 +50,7 @@
     top: 0;
     left: 0;
     z-index: 30;
-    -webkit-overflow-scrolling: touch;
+    overflow: auto;
     margin-left: -492px;
   }
   .nav.fullscreen {
